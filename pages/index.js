@@ -1,7 +1,8 @@
 import React from 'react'
 import { bindActionCreators } from 'redux'
-import { startClock, addCount, serverRenderClock } from '../store'
 import { connect } from 'react-redux'
+import Head from 'next/head'
+import { startClock, addCount, serverRenderClock } from '../store'
 import Page from '../components/Page'
 
 class Counter extends React.Component {
@@ -21,7 +22,19 @@ class Counter extends React.Component {
   }
 
   render () {
-    return <Page title='Index Page' linkTo='/other' />
+    return (
+      <div>
+        <Head>
+          <title>BaManRo - با من رو</title>
+          <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+          <link
+            rel='stylesheet'
+            href='https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css'
+          />
+        </Head>
+        <Page title='Index Page' linkTo='/other' />
+      </div>
+    )
   }
 }
 

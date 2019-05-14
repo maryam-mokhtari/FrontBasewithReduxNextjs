@@ -976,7 +976,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/omid/projects/frontend/pages/_app.js";
+var _jsxFileName = "/home/omid/Projects/frontend/pages/_app.js";
 
 
 
