@@ -2,7 +2,7 @@ import React from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import Head from 'next/head'
-import { startClock, addCount, serverRenderClock } from '../store'
+import { startClock, addCount, serverRenderClock } from '../src/actions'
 import Page from '../components/Page'
 
 class Counter extends React.Component {
