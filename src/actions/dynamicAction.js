@@ -1,5 +1,5 @@
 import { RSAA } from 'redux-api-middleware'
-import actionTypes from './ActionTypes'
+import ActionTypes from './ActionTypes'
 import baseUrl from '../utils/baseurl'
 
 export const mFetch = (endpoint, actionType, method, body, metaRequest, metaSuccess,
@@ -21,10 +21,10 @@ export const mFetch = (endpoint, actionType, method, body, metaRequest, metaSucc
   headers['token'] = csrfToken
   console.log('headers is : ', headers)
   let request = {
-    type: actionTypes[actionType + '_REQUEST']
+    type: ActionTypes[actionType + '_REQUEST']
   }
   let success = {
-    type: actionTypes[actionType + '_SUCCESS'],
+    type: ActionTypes[actionType + '_SUCCESS'],
     payload: (action, state, response) => {
       console.log('success', actionType);
       if (response.headers.get('Content-Range')) {
@@ -38,7 +38,7 @@ export const mFetch = (endpoint, actionType, method, body, metaRequest, metaSucc
     },
   }
   let failure = {
-    type: actionTypes[actionType + '_FAILURE'],
+    type: ActionTypes[actionType + '_FAILURE'],
     payload: (action, state, response) => {
       return response.json()
     },

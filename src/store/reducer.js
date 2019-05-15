@@ -1,4 +1,4 @@
-import actionTypes from '../actions/ActionTypes'
+import ActionTypes from '../actions/ActionTypes'
 import basicInitialState from './initial'
 //
 // const basicInitialState = {
@@ -9,12 +9,12 @@ import basicInitialState from './initial'
 
 const reducer = (state = basicInitialState, action) => {
   switch (action.type) {
-    case actionTypes.TICK:
+    case ActionTypes.TICK:
       return Object.assign({}, state, {
         lastUpdate: action.ts,
         light: !!action.light
       })
-    case actionTypes.ADD:
+    case ActionTypes.ADD:
       return Object.assign({}, state, {
         count: state.count + 1
       })

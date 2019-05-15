@@ -10,7 +10,7 @@ import basicInitialState from './initial'
 //   count: 0
 // }
 //
-// export const actionTypes = {
+// export const ActionTypes = {
 //   ADD: 'ADD',
 //   TICK: 'TICK'
 // }
@@ -18,12 +18,12 @@ import basicInitialState from './initial'
 // REDUCERS
 // export const reducer = (state = basicInitialState, action) => {
 //   switch (action.type) {
-//     case actionTypes.TICK:
+//     case ActionTypes.TICK:
 //       return Object.assign({}, state, {
 //         lastUpdate: action.ts,
 //         light: !!action.light
 //       })
-//     case actionTypes.ADD:
+//     case ActionTypes.ADD:
 //       return Object.assign({}, state, {
 //         count: state.count + 1
 //       })
@@ -34,18 +34,18 @@ import basicInitialState from './initial'
 
 // ACTIONS
 // export const serverRenderClock = isServer => dispatch => {
-//   return dispatch({ type: actionTypes.TICK, light: !isServer, ts: Date.now() })
+//   return dispatch({ type: ActionTypes.TICK, light: !isServer, ts: Date.now() })
 // }
 //
 // export const startClock = () => dispatch => {
 //   return setInterval(
 // }
-//     () => dispatch({ type: actionTypes.TICK, light: true, ts: Date.now() }),
+//     () => dispatch({ type: ActionTypes.TICK, light: true, ts: Date.now() }),
 //     1000
 //   )
 //
 // export const addCount = () => dispatch => {
-//   return dispatch({ type: actionTypes.ADD })
+//   return dispatch({ type: ActionTypes.ADD })
 // }
 
 
