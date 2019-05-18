@@ -246,10 +246,10 @@ $('.like-img').click(function() {
   $(this).attr('src','static/img/like.svg');
 });
 $('.star').click(function() {
-  $(this).attr('src','static/img/v2/star1.svg');
+  $(this).attr('src','static/img/star1.svg');
 });
 $('.starplus').click(function() {
-  $(this).attr('src','static/img/v2/star2.svg');
+  $(this).attr('src','static/img/star2.svg');
 });
 $('.eye-open').click(function() {
   $('.password-login').attr('type', 'password');

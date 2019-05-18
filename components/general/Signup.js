@@ -13,16 +13,16 @@ export default class Signup extends Component {
           </div>
           <div className="form-group login-tab" style={{display: 'block'}}>
             <fieldset className="form-group">
-              <img alt="پروفایل" src="/static/img/002/avatar.svg" className="placeholder-icon" />
+              <img alt="پروفایل" src="/static/img/avatar.svg" className="placeholder-icon" />
               <input type="email" className="form-control login-input" />
               <label className="login-label" htmlFor="email-login">
                 Email
               </label>
             </fieldset>
             <fieldset className="form-group">
-              <img alt="" src="/static/img/002/padlock.svg" className="placeholder-icon" />
-              <img alt="" src="/static/img/002/eye.svg" className="eye eye-open" style={{display: 'none'}} />
-              <img alt="" src="/static/img/002/hide.svg" className="eye eye-close" />
+              <img alt="" src="/static/img/padlock.svg" className="placeholder-icon" />
+              <img alt="" src="/static/img/eye.svg" className="eye eye-open" style={{display: 'none'}} />
+              <img alt="" src="/static/img/hide.svg" className="eye eye-close" />
               <input type="password" className="form-control login-input password-login" />
               <label className="login-label">
                 Password
@@ -46,7 +46,7 @@ export default class Signup extends Component {
           </div>
           <div className="form-group register-tab" style={{display: 'none'}}>
             <fieldset className="form-group">
-              <img alt="" src="/static/img/002/avatar.svg" className="placeholder-icon" />
+              <img alt="" src="/static/img/avatar.svg" className="placeholder-icon" />
               <input type="email" className="form-control login-input" />
               <label className="login-label" htmlFor="email-register">
                 Email or Phone

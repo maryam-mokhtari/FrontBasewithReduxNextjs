@@ -7,31 +7,31 @@ export default class Header extends Component {
         <h1 className="section-title">خدمات در کانادا</h1>
         <div id="canada-box" className="owl-carousel">
           <div className="canada-box-div">
-            <img alt="خدمات پس از ورود" src="/static/img/v2/visa.svg" />
+            <img alt="خدمات پس از ورود" src="/static/img/visa.svg" />
             خدمات پس از ورود&nbsp;
             <br className="mobile-br" />
             به کانادا
           </div>
           <div className="canada-box-div">
-            <img alt="ویزای تجاری" src="/static/img/v2/passport.svg" />
+            <img alt="ویزای تجاری" src="/static/img/passport.svg" />
             ویزای تجاری&nbsp;
             <br className="mobile-br" />
             کانادا
           </div>
           <div className="canada-box-div">
-            <img alt="وقت سفارت" src="/static/img/v2/government-buildings.svg" />
+            <img alt="وقت سفارت" src="/static/img/government-buildings.svg" />
             وقت سفارت&nbsp;
             <br className="mobile-br" />
             کانادا
           </div>
           <div className="canada-box-div">
-            <img alt="ویزای توریستی" src="/static/img/v2/suitcase.svg" />
+            <img alt="ویزای توریستی" src="/static/img/suitcase.svg" />
             ویزای توریستی&nbsp;
             <br className="mobile-br" />
             کانادا
           </div>
           <div className="canada-box-div">
-            <img alt="تولد فرزند در کانادا" src="/static/img/v2/maternity.svg" />
+            <img alt="تولد فرزند در کانادا" src="/static/img/maternity.svg" />
             تولد فرزند&nbsp;
             <br className="mobile-br" />
             در کانادا

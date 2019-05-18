@@ -1116,7 +1116,7 @@ hr {
   margin-top: 1rem;
 }
 #first-page {
-  background-image: url('../img/v2/bg1.png');
+  background-image: url('../img/bg1.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -1397,7 +1397,7 @@ hr {
   bottom: 0;
 }
 #visa-customers {
-  background-image: url(../img/v2/emigration.svg);
+  background-image: url(../img/emigration.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-y: bottom;
@@ -1470,13 +1470,13 @@ hr {
   width: 40%;
 }
 #item-pic1 {
-  background-image: url('../img/v2/apartment.png')
+  background-image: url('../img/apartment.png')
 }
 #item-pic2 {
-  background-image: url('../img/v2/food.png')
+  background-image: url('../img/food.png')
 }
 #item-pic3 {
-  background-image: url('../img/v2/villa.png')
+  background-image: url('../img/villa.png')
 }
 .ad-box {
   display: flex;
@@ -1635,13 +1635,13 @@ hr {
   background-size: cover;
 }
 #house1 {
-  background-image: url('../img/v2/house1.jpg');
+  background-image: url('../img/house1.jpg');
 }
 #house2 {
-  background-image: url('../img/v2/house2.jpg');
+  background-image: url('../img/house2.jpg');
 }
 #house3 {
-  background-image: url('../img/v2/house3.jpg');
+  background-image: url('../img/house3.jpg');
 }
 #top-div {
   padding-top: .5rem;

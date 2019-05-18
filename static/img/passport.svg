@@ -2,6 +2,12 @@
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style>
+#main {
+ fill: #8477ff;
+}
+</style>
+<g id="main">
 <g>
 	<g>
 		<path d="M432.252,6.738c-6.238-5.338-14.471-7.667-22.58-6.4L97.465,49.21c-1.14,0.178-2.207,0.552-3.177,1.072
@@ -107,5 +113,6 @@
 <g>
 </g>
 <g>
+</g>
 </g>
 </svg>

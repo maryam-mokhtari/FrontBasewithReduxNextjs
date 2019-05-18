@@ -7,7 +7,7 @@ export default class Footer extends Component {
       <span>
         <section id="footer-section" className="row zero down-links w-100 sec-x">
           <div className="col down-item">
-            <img alt="تیم وکلای مهاجرتی" src="/static/img/v2/lawyer.svg" className="down-icon" />
+            <img alt="تیم وکلای مهاجرتی" src="/static/img/lawyer.svg" className="down-icon" />
             <span className="footer-text">
               تیم وکلای
               <br className="footer-mobile" />
@@ -55,7 +55,7 @@ export default class Footer extends Component {
               </div>
               <div className="downer-tel">
                 <a href="tel:02122419722">
-                  <img className="downer-icon" src="/static/img/v2/telephone.svg" alt="تماس" title="تماس" />
+                  <img className="downer-icon" src="/static/img/telephone.svg" alt="تماس" title="تماس" />
                   021-22419722
                 </a>
               </div>

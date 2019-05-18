@@ -25,11 +25,11 @@ export default class Pictures extends Component {
             </button>
             <button id="pictures-save" className="pictures-button">
               ذخیره
-              <img alt="ذخیره" src="/static/img/v2/save.svg" />
+              <img alt="ذخیره" src="/static/img/save.svg" />
             </button>
             <button id="pictures-share" className="pictures-button">
               اشتراک‌گذاری
-              <img alt="اشتراک گذاری" src="/static/img/v2/share.svg" />
+              <img alt="اشتراک گذاری" src="/static/img/share.svg" />
             </button>
           </div>
         </div>

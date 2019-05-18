@@ -13,11 +13,11 @@ export default class Info extends Component {
               <div><h2>۳۰۰،۰۰۰ تومان</h2> در شبانه‌روز</div>
               <div className="stars">
                 {Array.from(Array(rank), (i, index) =>
-                  <img key={index} src={`/static/img/v2/star${house.is_plus? '2':'1'}.svg`}
+                  <img key={index} src={`/static/img/star${house.is_plus? '2':'1'}.svg`}
                     className={house.is_plus? 'starplus' : 'star'} alt="امتیاز" title="امتیاز" />
                 )}
                 {Array.from(Array(5 - rank), (i, index) =>
-                  <img key={index} src="/static/img/v2/star.svg"
+                  <img key={index} src="/static/img/star.svg"
                     className={house.is_plus? 'starplus' : 'star'}  alt="امتیاز" title="امتیاز" />
                 )}
               </div>
@@ -55,7 +55,7 @@ export default class Info extends Component {
           </div>
           <Link className="report" to="">
             گزارش اطلاعات نابجا &nbsp;
-            <img alt="گزارش اطلاعات نابجا" className="icon" src="/static/img/v2/flag.svg" />
+            <img alt="گزارش اطلاعات نابجا" className="icon" src="/static/img/flag.svg" />
           </Link>
         </div>
       </section>

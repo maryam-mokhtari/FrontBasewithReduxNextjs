@@ -18,7 +18,7 @@ export default class Navbar extends Component {
             </span>
           </Link>
           <div id="sidenav-leftbox">
-            <a href="tel:02122419722"><img src="/static/img/v2/phone-call.svg" className="top-icon" id="phone" alt="تماس" title="تماس" /></a>
+            <a href="tel:02122419722"><img src="/static/img/phone-call.svg" className="top-icon" id="phone" alt="تماس" title="تماس" /></a>
             <button id="dropdownMenuButton3" className="btn dropdown-toggle migration-dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               <img src="/static/img/user1.svg" className="top-icon" id="user" alt="ثبت‌نام" title="ثبت‌نام" />
             </button>
@@ -71,7 +71,7 @@ export default class Navbar extends Component {
               <button id="dropdown-menu-button2" className="btn dropdown-toggle migration-dropdown-toggle p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 <img src="/static/img/user1.svg" className="top-icon-scrolled d-none" id="user2" alt="ثبت‌نام" title="ثبت‌نام" />
               </button>
-              <a href="tel:02122419722"><img alt="تماس تلفنی" src="/static/img/v2/phone-call.svg" className="top-icon-scrolled d-none" /></a>
+              <a href="tel:02122419722"><img alt="تماس تلفنی" src="/static/img/phone-call.svg" className="top-icon-scrolled d-none" /></a>
               <Signup id="scrolled-login-box" buttonId="dropdown-menu-button2" />
             </div>
           </div>

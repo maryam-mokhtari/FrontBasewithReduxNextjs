@@ -64,11 +64,11 @@ export default class Box extends Component {
               <div className="d-flex">
                 <div className="stars">
                   {Array.from(Array(rank), (i, index) =>
-                    <img key={index} src={`/static/img/v2/star${house.is_plus? '2':'1'}.svg`}
+                    <img key={index} src={`/static/img/star${house.is_plus? '2':'1'}.svg`}
                       className={house.is_plus? 'starplus' : 'star'} alt="امتیاز" title="امتیاز" />
                   )}
                   {Array.from(Array(5 - rank), (i, index) =>
-                    <img key={index} src="/static/img/v2/star.svg"
+                    <img key={index} src="/static/img/star.svg"
                       className={house.is_plus? 'starplus' : 'star'}  alt="امتیاز" title="امتیاز" />
                   )}
                 </div>
