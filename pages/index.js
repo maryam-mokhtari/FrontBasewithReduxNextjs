@@ -4,8 +4,10 @@ import { connect } from 'react-redux'
 import Head from 'next/head'
 import { startClock, addCount, serverRenderClock } from '../src/actions'
 import Page from '../components/Page'
+import Homepage from '../components/Homepage'
 
-class Counter extends React.Component {
+class Index extends React.Component {
+
   static getInitialProps ({ store, isServer }) {
     store.dispatch(serverRenderClock(isServer))
     store.dispatch(addCount())
@@ -25,14 +27,38 @@ class Counter extends React.Component {
     return (
       <div>
         <Head>
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="/static/css/base.css" />
+          <link rel="stylesheet" href="/static/css/search.css" />
+          <link rel="stylesheet" href="/static/css/switch.css" />
+          <link rel="stylesheet" href="/static/css/page.css" />
+          <link rel="stylesheet" href="/static/css/collapse.css" />
+          <link rel="stylesheet" href="/static/css/sidenav.css" />
+          <link rel="stylesheet" href="/static/css/login.css" />
+          <link rel="stylesheet" href="/static/css/override.css" />
+          <link rel="stylesheet" href="/static/css/responsive-min.css" />
+          <link rel="stylesheet" href="/static/css/responsive-max.css" />
+          <link rel="stylesheet" href="/static/css/r-max.css" />
+          <link rel="stylesheet" href="/static/css/r-min.css" />
+          <link rel="stylesheet" href="/static/css/page-r-max.css" />
+          <link rel="stylesheet" href="/static/css/page-r-min.css" />
+          <link rel="stylesheet" href="/static/css/owl.carousel.min.css" />
+          <link rel="stylesheet" href="/static/css/owl.theme.default.min.css" />
+          <link rel="stylesheet" href="/static/css/carousel.css" />
+
           <title>BaManRo - با من رو</title>
           <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
-          <link
-            rel='stylesheet'
-            href='https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css'
-          />
         </Head>
-        <Page title='Index Page' linkTo='/other' />
+        <Homepage />
+
+        <script src="https://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" type="text/javascript"></script>
+        <script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/static/js/sidenav.js" type="text/javascript"></script>
+        <script src="/static/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="/static/js/base.js" type="text/javascript"></script>
       </div>
     )
   }
@@ -45,7 +71,8 @@ const mapDispatchToProps = dispatch => {
   }
 }
 
+
 export default connect(
   null,
   mapDispatchToProps
-)(Counter)
+)(Index)
