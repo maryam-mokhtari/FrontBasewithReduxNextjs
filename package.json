@@ -10,12 +10,16 @@
     "next": "8.1.0",
     "next-redux-wrapper": "2.0.0",
     "react": "16.8.6",
+    "react-datepicker2": "^2.0.5",
     "react-dom": "16.8.6",
     "react-redux": "5.0.7",
+    "react-slick": "^0.21.0",
+    "react-slick-16": "^0.16.1",
     "redux": "4.0.0",
     "redux-api-middleware": "2.3.0",
     "redux-devtools-extension": "2.13.2",
-    "redux-thunk": "2.2.0"
+    "redux-thunk": "2.2.0",
+    "slick-carousel": "^1.8.1"
   },
   "license": "ISC"
 }

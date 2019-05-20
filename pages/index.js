@@ -5,6 +5,7 @@ import Head from 'next/head'
 import { startClock, addCount, serverRenderClock } from '../src/actions'
 import Page from '../components/Page'
 import Homepage from '../components/Homepage'
+import Apartments from '../components/homepage/Apartments'
 
 class Index extends React.Component {
 
@@ -47,6 +48,9 @@ class Index extends React.Component {
           <link rel="stylesheet" href="/static/css/owl.carousel.min.css" />
           <link rel="stylesheet" href="/static/css/owl.theme.default.min.css" />
           <link rel="stylesheet" href="/static/css/carousel.css" />
+          <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+          <link rel="stylesheet" href="/static/css/slick.css" />
 
           <title>BaManRo - با من رو</title>
           <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
