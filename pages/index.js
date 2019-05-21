@@ -6,6 +6,7 @@ import { startClock, addCount, serverRenderClock } from '../src/actions'
 import Page from '../components/Page'
 import Homepage from '../components/Homepage'
 import Apartments from '../components/homepage/Apartments'
+import Markdown from '../components/Markdown'
 
 class Index extends React.Component {
 
@@ -55,7 +56,7 @@ class Index extends React.Component {
           <title>BaManRo - با من رو</title>
           <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
         </Head>
-        <Homepage />
+        <Markdown />
 
         <script src="https://code.jquery.com/jquery.min.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" type="text/javascript"></script>

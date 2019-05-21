@@ -30,12 +30,12 @@ var $win = $(window).scroll(function(){
 });
 
 $(function() {
-  $('#carousel7').slick({
-  slidesToShow: 3,
-  dots:true,
-  centerMode: true,
-  arrows: true, 
-  });
+  // $('#carousel7').slick({
+  // slidesToShow: 3,
+  // dots:true,
+  // centerMode: true,
+  // arrows: true,
+  // });
 
   if (innerWidth > 1000) {
     $('#first-modal').modal('show');

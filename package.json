@@ -12,6 +12,7 @@
     "react": "16.8.6",
     "react-datepicker2": "^2.0.5",
     "react-dom": "16.8.6",
+    "react-markdown": "^4.0.8",
     "react-redux": "5.0.7",
     "react-slick": "^0.21.0",
     "react-slick-16": "^0.16.1",
